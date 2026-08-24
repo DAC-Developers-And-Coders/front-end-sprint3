@@ -472,6 +472,14 @@ footer img {
 }
 
 @media (width <= 1024px) {
+
+    .functions-solution img {
+        width: 300px;
+    }
+    #gallery {
+        height: 300vh;
+    }
+
     .simulation-img-gallery {
     grid-template-columns: 1fr;
     }
@@ -506,7 +514,6 @@ footer img {
     #hero {
         grid-template-columns: 1fr;
     }
-
 
     .text-hero h1{
         padding-top: calc(var(--sizing-xxxl)+var(--sizing-sm));
